@@ -1,0 +1,590 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import "~@ng-select/ng-select/themes/material.theme.css";
+html,
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500
+}
+:focus {outline:none;}
+a, a:hover { color: inherit; }
+
+button.no-style {
+    background: transparent;
+    border: none;
+}
+
+button.no-style:focus {
+    outline: none
+}
+
+.row {
+    margin: 0
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    height: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+app-loader {
+    display: none
+}
+
+.loader:empty+app-loader {
+    display: block
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    height: 0;
+}
+
+#toast-container>div {
+    padding-left: 15px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.word-break { word-break: break-all; }
+
+.square100 {
+	width: 100px;
+	height: 100px;
+}
+.square75 {
+	width: 75px;
+	height: 75px;
+}
+.square50 {
+	width: 50px;
+	height: 50px;
+}
+
+/* SWIPER Styling */
+.swiper-pagination {
+	bottom: 10px;
+	width: 100%;
+	z-index: 1;
+}
+.swiper-pagination-bullet-active { background: white }
+.swiper-pagination-bullet { margin: 0 1px; }
+.swiper-button-disabled { display: none !important; }
+
+/* MDBootsrap Styling */
+
+.btn {
+    margin: 0;
+    border-radius: 0
+}
+
+.carousel-indicators {
+    margin-left: -59%;
+    margin-bottom: 0px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+}
+
+.btn:not([disabled]):not(.disabled):active,
+.btn:not([disabled]):not(.disabled).active {
+    box-shadow: none;
+}
+
+label.dob_label.font-small.label_date.font-bold.active {
+    color: #212529;
+}
+
+@media screen and (max-width: 1023px) {
+    .border-bottom,
+    .border-top,
+    .border,
+    .border-left,
+    .border-right {
+        border-color: #eff1f4 !important
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    // .border-bottom, .border-top, .border, .border-left, .border-right{border-color: #c4c4c4 !important}
+}
+
+.pb-2-5,
+.py-2-5 {
+    padding-bottom: 0.75rem !important;
+}
+
+.pt-2-5,
+.py-2-5 {
+    padding-top: 0.75rem !important;
+}
+
+
+/* NgSelect */
+
+.ng-select.ng-select-focused .ng-select-container:after {
+    border-color: black;
+}
+
+.ng-select.ng-select-focused .ng-select-container .ng-value-container .ng-placeholder {
+    color: black;
+}
+
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected {
+    color: #ff3651
+}
+
+.custom.ng-dropdown-panel.ng-select-bottom,
+.ng-dropdown-panel.ng-select-top {
+    box-shadow: none;
+    left: 0;
+}
+
+.border-0.ng-select .ng-select-container:after {
+    border-bottom: none;
+}
+
+.border-0.ng-select.ng-select-single .ng-select-container .ng-arrow-wrapper {
+    align-self: center;
+    bottom: 0
+}
+
+.border-0.ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input {
+    bottom: 13px
+}
+
+.border-0.ng-select {
+    padding-bottom: 0
+}
+
+.border-0.ng-dropdown-panel {
+    width: 200px
+}
+
+.returns.ng-select .ng-select-container {
+    border-radius: 25px;
+    padding: 0px 20px;
+    color: #76848b;
+}
+
+.md-form input[type=text] {
+    box-shadow: 0 1px 0 0 grey;
+    border-bottom: 1px solid grey;
+}
+
+.md-form input[type=text]:focus:not([readonly]) {
+    box-shadow: 0 1px 0 0 #ff3651;
+    border-bottom: 1px solid #ff3651;
+}
+
+.md-form input[type=text]:focus:not([readonly])+label {
+    color: grey;
+}
+
+.borderDropDown {
+    border: 1px solid grey;
+}
+
+.tIssue.ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    padding-left: 10px;
+}
+
+.returns.ng-select .ng-select-container .ng-value-container {
+    border-top: none;
+    align-self: center;
+}
+
+.returns.ng-select.ng-select-single .ng-select-container .ng-arrow-wrapper {
+    bottom: 0;
+    align-self: center
+}
+
+.returns.ng-select .ng-select-container:after {
+    border-bottom: none
+}
+
+.edit_profile_page .form-control:focus {
+    box-shadow: none;
+    border: none;
+    background-color: #EFF1F4;
+    border: 1px solid #e3e3e3
+}
+
+.ng-dropdown-panel.f14.returns.bg-white.borderDropDown.br-100.pb-0 {
+    border-radius: 0px;
+    margin-top: 18px;
+}
+
+label.font-small.label_date.font-bold.active {
+    transform: translateY(0px);
+}
+
+
+/* FONT */
+
+.f30 {
+    font-size: 30px
+}
+
+.f22 {
+    font-size: 22px
+}
+
+.f20 {
+    font-size: 20px
+}
+
+.f18 {
+    font-size: 18px
+}
+
+.f17 {
+    font-size: 17px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.f15 {
+    font-size: 15px
+}
+
+.f14 {
+    font-size: 14px
+}
+
+.f13 {
+    font-size: 13px
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f11 {
+    font-size: 11px
+}
+
+.f10 {
+    font-size: 10px
+}
+
+.font-bold {
+    font-weight: 600 !important
+}
+
+.md-form label,
+.font-small {
+    font-size: small
+}
+
+
+/* UTILITY */
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.5s;
+    z-index: 5;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: bottom 0.5s;
+    z-index: 5;
+}
+
+.lspace1 {
+    letter-spacing: 1px
+}
+
+.lspace2 {
+    letter-spacing: 2px
+}
+
+.lh1 {
+    line-height: 1.3
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+    user-select: none;
+}
+
+.strikethrough {
+    position: relative;
+}
+
+.br-5 { border-radius: 5px }
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-25 {
+    border-radius: 25px;
+}
+
+.br-100 {
+    border-radius: 100px
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-capitalize { text-transform: capitalize; }
+
+.no-select {
+    -webkit-user-select: none;
+    /* Safari 3.1+ */
+    -moz-user-select: none;
+    /* Firefox 2+ */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: -5%;
+    top: 50%;
+    width: 110%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.ng-select .ng-select-container .ng-value-container .ng-placeholder {
+    color: #888c8d;
+    font-size: 13px;
+}
+
+
+/* DESKTOP BUTTONS */
+
+// .d-btn:hover {background-position:left bottom;}
+.hover-btn-grey {
+    background-image: linear-gradient(to right, #CECECE 50%, #DCDCDC 50%) !important;
+    background: linear-gradient(to right, #CECECE 50%, #DCDCDC 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.hover-btn-pink {
+    background-image: linear-gradient(to right, #C73755 50%, #EF3B55 50%) !important;
+    background: linear-gradient(to right, #C73755 50%, #EF3B55 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.hover-btn-green {
+    background-image: linear-gradient(to right, #03aa48 50%, #00c853 50%) !important;
+    background: linear-gradient(to right, #03aa48 50%, #00c853 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.hover-btn-grey,
+.hover-btn-pink,
+.hover-btn-green {
+    border-radius: 50px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 4px 0px #c4c4c4;
+    position: relative;
+}
+
+.hover-btn-grey:hover,
+.hover-btn-pink:hover,
+.hover-btn-green:hover {
+    box-shadow: 0px 2px 4px 0px #c4c4c4;
+    background-position: left bottom;
+}
+
+
+/* BACKGROUND COLOR */
+
+.bg-white1 {
+    background-color: #f5f8f9
+}
+
+.bg-grey1 {
+    background-color: #eff1f4 !important
+}
+
+.bg-grey2 {
+    background-color: #c4c4c4
+}
+
+.bg-grey3 {
+    background-color: #888c8d
+}
+
+.bg-grey4 {
+    background-color: #76848b
+}
+
+.bg-black {
+    background-color: #242c37
+}
+
+.bg-pink1 {
+    background-color: #ff3651
+}
+
+.bg-yellow1 {
+    background-color: #DCCF14
+}
+
+.bg-green1 {
+    background-color: #B7FFD5
+}
+
+.bg-green2 {
+    background-color: #00c853
+}
+
+
+/* TEXT COLOR */
+.text-white1 { color: #f5f8f9 !important }
+.text-grey1 { color: #eff1f4 !important }
+.text-grey2 { color: #c4c4c4 !important }
+.text-grey3 { color: #888c8d !important }
+.text-grey4 { color: #76848b !important }
+.text-black { color: #242c37 !important }
+.text-pink1 { color: #ff3651 !important }
+.text-yellow1 { color: #DCCF14 !important }
+.text-green1 { color: #B7FFD5 !important }
+.text-green2 { color: #00c853 !important }
+.text-yellow { color: #D6DA57 !important }
+
+/* WIDTH & HEIGHT */
+
+.w100 {
+    width: 100%
+}
+.w87{
+    width: 87%;
+}
+.w67{
+   width: 67%;
+}
+.w54{
+   width: 54%;
+}
+.w40{
+    width: 40%;
+}
+
+.bg-grey-circle{
+    height:110px;
+    width:110px;
+    border-radius: 50%;
+    background-color: #E8E8E8;
+}
+.medium-grey-circle{
+    height:85px;
+    width:85px;
+    border-radius: 50%;
+    background-color: #E8E8E8;
+}
+
+
+/* CSS for Fonts-Icons */
+
+// Home slick arrows for desktop
+span.prevArr {
+    z-index: 4;
+    width: 35px;
+    height: 65px;
+    font-size: 0;
+    box-shadow: 2px 1px 4px #2222228c;
+    border-radius: 0 5px 5px 0;
+    line-height: 0;
+    position: absolute;
+    top: 37%;
+    display: block;
+    background: white;
+}
+
+span.nextArr {
+    z-index: 4;
+    width: 35px;
+    height: 65px;
+    font-size: 0;
+    box-shadow: -2px 1px 4px #2222228c;
+    border-radius: 5px 0 0 5px;
+    line-height: 0;
+    position: absolute;
+    top: 37%;
+    right: 0;
+    display: block;
+    background: white;
+}
+
+.icon-arrow-down.prevArr:before {
+    transform: rotate(90deg);
+    left: 10px;
+    color: #FF3651;
+    font-size: 7px;
+    /* width: 10px; */
+    position: absolute;
+    top: 32.5px;
+}
+
+.icon-arrow-down.nextArr:before {
+    transform: rotate(-90deg);
+    right: 10px;
+    color: #FF3651;
+    font-size: 7px;
+    /* width: 10px; */
+    position: absolute;
+    top: 32.5px;
+}
+
+.slick-arrow.slick-disabled { visibility: hidden; }
+
+// .category span.prevArr.slick-arrow,
+// .category span.nextArr.slick-arrow {
+//     top: 25%;
+// }
+
+.users span.nextArr.slick-arrow,
+.users span.prevArr.slick-arrow {
+    top: 30%;
+}
+
+.perfect-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-open .modal {
+    overflow-y: auto;    
+}
